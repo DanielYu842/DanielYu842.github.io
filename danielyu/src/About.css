@@ -1,0 +1,67 @@
+.about-div{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.about-div-content{
+    width: 100%;
+    
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-title{
+    margin: 150px;
+    margin-left: 0px;
+    height: 0px;
+    width: fit-content;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+.about-content{
+
+    width: 700px;
+    min-width: 400px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    line-height: 35px;
+}
+
+.about-image-div{
+    background-image: url('./Assets/Image2.JPG');
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-position: 92% center;
+    margin: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 750px){
+    .about-content{
+        font-size: 20px;
+        min-width: 200px;
+        width: 400px;
+    }
+    .about-image-div{
+        margin-top: 20px;
+        width: 400px;
+        height: 550px;
+    }
+}
