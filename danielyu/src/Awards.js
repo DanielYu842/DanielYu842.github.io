@@ -1,6 +1,7 @@
 import React from 'react';
 import './Awards.css';
 import AwardItem from './AwardItem'
+import { Spring } from 'react-spring/renderprops'
 
 class Awards extends React.Component{
     render(){
@@ -10,7 +11,12 @@ class Awards extends React.Component{
                     My Awards
                 </div>
                 <div class="awards-content">
-                    <AwardItem></AwardItem>
+                    <Spring
+                        config = {{delay: 500, tension: 30}}
+                        from={{ opacity: 0 }}
+                        to={{ opacity: 1 }}>
+                        {() => (<AwardItem></AwardItem>)}
+                    </Spring>
                     <AwardItem></AwardItem>
                     <AwardItem></AwardItem>
                     <AwardItem></AwardItem>

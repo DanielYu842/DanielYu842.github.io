@@ -4,4 +4,30 @@
     background: #C4C4C4;
     border-radius: 20px;    
     margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.awarditem-div { transition: all .3s ease-out; }
+.awarditem-div:hover { transform: scale(1.05); }
+
+
+.awarditem-title{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.awarditem-details{
+    margin-top: 20px;
+    width: 80%;
+    flex-grow: 1;
+}
+.awarditem-bottom{
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }

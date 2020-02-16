@@ -4,7 +4,15 @@ class AwardItem extends React.Component{
     render(){
         return(
             <div class="awarditem-div">
-                Award
+                <div class="awarditem-title">Canadian Computing Competition</div>
+                <div class="awarditem-details">
+                    <p>Honor Roll Group 2</p>
+                    <p>I received a score of 71/75 on the junior competition.</p>
+                </div>
+                <div class="awarditem-bottom">
+                    <div >date</div>
+                    <div>link</div>
+                </div>
             </div>
         )
     }
