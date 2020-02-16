@@ -138,14 +138,13 @@
 #menu
 {
   position: absolute;
-  width: 250px;
+  width: 150px;
   height: 100vh;
   padding: 50px;
   padding-top: 125px;
   right: 0px;
   top: -16px;
-  background: #ededed;
-  list-style-type: none;
+  background: #F5F5F5	;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   
@@ -153,12 +152,17 @@
   transform: translate(+100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #menu li
 {
   padding: 10px 0;
   font-size: 22px;
+
 }
 
 /*
@@ -169,3 +173,9 @@
   transform: none;
 }
 
+.fillerr-div{
+  flex-grow: 5;
+}
+.navitem{
+  flex-grow: 1;
+}

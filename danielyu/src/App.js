@@ -17,6 +17,7 @@ class App extends React.Component{
             <Route path="/awards"></Route>
             <Route path="/projects"></Route>
             <Route path="/resume"></Route>
+            <Route exact path="/" component={Home}></Route>
           </Switch>
         </div>
       </BrowserRouter>

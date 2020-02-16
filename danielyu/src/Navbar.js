@@ -41,10 +41,11 @@ class Navbar extends React.Component{
                         <span></span>
                         <span></span> 
                         <ul id="menu">
-                            <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>About</Link>
-                            <Link to="awards" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Awards</Link>
-                            <Link to="projects" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Projects</Link>
-                            <Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Resume</Link>
+                            <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>About</Link>
+                            <Link to="awards" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Awards</Link>
+                            <Link to="projects" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Projects</Link>
+                            <Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Resume</Link>
+                            <div class="fillerr-div"></div>
                         </ul>
                     </div>
                 </nav>
