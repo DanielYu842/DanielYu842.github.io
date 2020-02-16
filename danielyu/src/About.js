@@ -13,7 +13,7 @@ class About extends React.Component{
                             About Me
                         </div>
                         <div class="about-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum erat erat. Sed cursus nibh in lectus vehicula, ut consectetur libero commodo. Pellentesque sit amet accumsan augue. Praesent at neque id magna pellentesque condimentum. Nullam viverra id sapien eu posuere. Sed pellentesque ante a aliquam fringilla. Nullam lacus nulla, varius ut vulputate id, semper at sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum varius est id lectus tincidunt fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod ipsum eget laoreet pulvinar. Aliquam sit amet orci elit.
+                        I am a grade 10 student in Waterloo Ontario with a strong passion for software development. I enjoy competitive coding problems with python while honing my skills in software development with react as a front-end developer. I have experience at over 7 hackathons (with a few wins) and have mentored at various coding seminars. In my spare time, I like to play chess, develop my competitive math skills and learn more about the world of business.
                         </div>
                     </div>
                     <div class="about-image-div">

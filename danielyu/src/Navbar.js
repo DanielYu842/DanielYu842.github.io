@@ -4,7 +4,24 @@ import {BrowserRouter as Router,Link} from 'react-router-dom'
 
 
 class Navbar extends React.Component{
+    constructor(props){
+        super(props)
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll', function (e) {
+            var nav = document.getElementsByClassName('navbar-div')[0];
+            if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+                    nav.style.background = "black"
+                } else {
+                    nav.style.background = "transparent"
+
+                }
+        });
+        
+    }
     render(){
+
         return(
             <div class="navbar-div">
                 {/*<div class="filler-div"></div>*/}

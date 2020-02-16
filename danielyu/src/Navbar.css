@@ -9,6 +9,7 @@
     border-bottom: 2px solid white;
     position: fixed;
     top: 0;
+    transition: background 0.5s;
 }
 .logo-div{
     min-width: 120px;
@@ -38,7 +39,7 @@
 
 
 @media (min-width: 750px){
-    .navlinks-div{
+    .navbar-small{
         display: none;
     }
 }
@@ -167,3 +168,4 @@
 {
   transform: none;
 }
+
