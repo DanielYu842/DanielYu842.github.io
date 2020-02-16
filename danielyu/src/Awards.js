@@ -11,12 +11,7 @@ class Awards extends React.Component{
                     My Awards
                 </div>
                 <div class="awards-content">
-                    <Spring
-                        config = {{delay: 500, tension: 30}}
-                        from={{ opacity: 0 }}
-                        to={{ opacity: 1 }}>
-                        {() => (<AwardItem></AwardItem>)}
-                    </Spring>
+                    <AwardItem></AwardItem>
                     <AwardItem></AwardItem>
                     <AwardItem></AwardItem>
                     <AwardItem></AwardItem>

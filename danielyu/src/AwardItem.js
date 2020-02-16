@@ -1,6 +1,14 @@
 import React from 'react';
 import './AwardItem.css'
 class AwardItem extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+            title: ""
+        }
+    }
+
+
     render(){
         return(
             <div class="awarditem-div">
