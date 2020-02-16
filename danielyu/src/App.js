@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Switch, Link} from 'react-router-dom'
 import About from './About'
 import Home from './Home'
 import Navbar from './Navbar'
-
+import Awards from './Awards'
 class App extends React.Component{
   render(){
     return (
@@ -14,7 +14,7 @@ class App extends React.Component{
           <Switch>
             <Route path="/home" component={Home}></Route>
             <Route path="/about" component={About}></Route>
-            <Route path="/awards"></Route>
+            <Route path="/awards" component={Awards}></Route>
             <Route path="/projects"></Route>
             <Route path="/resume"></Route>
             <Route exact path="/" component={Home}></Route>
