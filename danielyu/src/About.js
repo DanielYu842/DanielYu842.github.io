@@ -21,8 +21,23 @@ class About extends React.Component{
                     </div>
                 </div>
                 <div class="about-section-div">
-                    <div class="about-section-card">Frontend</div>
-                    <div class="about-section-card">Backend</div>
+                    <div class="triangle-topright"></div>
+                    <div class="about-section-divv">
+                        <div class="about-section-card">
+                        <img src={require('./Assets/web.png')} width="100" class="about-section-icon"/>                        
+                        <div class="section-card-title"> Frontend</div>
+                            <div class="about-section-content">
+                                <div class="about-section-content-item">HTML</div>
+                                <div class="about-section-content-item">CSS3</div>
+                                <div class="about-section-content-item">Javascript</div>
+                                <div class="about-section-content-item">React</div>
+
+                            </div>
+                        </div>
+                        <div class="about-section-card">
+                            <div class="section-card-title">Backend</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="footer-div">
 
