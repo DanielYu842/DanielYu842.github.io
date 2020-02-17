@@ -12,7 +12,7 @@ class Navbar extends React.Component{
         window.addEventListener('scroll', function (e) {
             var nav = document.getElementsByClassName('navbar-div')[0];
             if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
-                    nav.style.background = "black"
+                    nav.style.background = "#474747"
                 } else {
                     nav.style.background = "transparent"
 
@@ -20,14 +20,21 @@ class Navbar extends React.Component{
         });
         
     }
+
+    homePage(){
+
+    }
+    contentPage(){
+
+    }
     render(){
 
         return(
             <div class="navbar-div">
-                {/*<div class="filler-div"></div>*/}
                 <div class="logo-div">
                     <Link to="/home" style={{ textDecoration: 'none' , color: 'white'}}>Daniel Yu</Link>
                 </div>
+                <div class="filler-div"></div>
                 <div class="navlinks-div">
                     <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>About</Link>
                     <Link to="awards" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Awards</Link>
