@@ -20,6 +20,13 @@ class About extends React.Component{
                         
                     </div>
                 </div>
+                <div class="about-section-div">
+                    <div class="about-section-card">Frontend</div>
+                    <div class="about-section-card">Backend</div>
+                </div>
+                <div class="footer-div">
+
+                </div>
             </div>
         )
     }
