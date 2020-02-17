@@ -58,3 +58,18 @@
 .home-subtitle-1{
     white-space: none; 
 }
+
+@media (max-width: 500px){
+    .example_c {
+        width: 100px;
+        font-size: 16px;
+    }
+    .home-title-div{
+        font-size: 45px;
+    }
+        
+    .home-subtitle-div{
+        font-size: 35px;
+    }
+
+}

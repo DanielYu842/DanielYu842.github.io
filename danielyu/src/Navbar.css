@@ -24,20 +24,21 @@
 
 .navlinks-div{
     display: flex;
-    justify-content: space-evenly;
     width: 40%;
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    justify-content: space-evenly;
 
-}
+  }
 
 .navitem{
     width: fit-content;
+    height: fit-content;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
-.filler-div{
-  flex-grow: 1;
-  background: red;
-}
+
 
 
 @media (min-width: 750px){
@@ -61,10 +62,12 @@
   
   -webkit-user-select: none;
   user-select: none;
-  background: red;
   margin-right: 7px;
 }
-
+#menuToggle:hover
+{
+  cursor: pointer;
+}
 #menuToggle input
 {
   display: block;
@@ -76,9 +79,11 @@
   
   cursor: pointer;
   opacity: 0%;
-  z-index: 2; /* and place it over the hamburger */
+  visibility: hidden;
+  z-index: -2; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
+
 }
 
 #menuToggle span
@@ -89,7 +94,7 @@
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -157,15 +162,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
 
 }
+
 
 /*
  * And let's slide it in from the left
@@ -179,5 +178,16 @@
   flex-grow: 5;
 }
 .navitem{
-  flex-grow: 1;
+  height: fit-content;
+  margin-bottom: 40px;
+}
+
+input{
+  opacity: 0%; 
+}
+.hidden-menu-content{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
 }
