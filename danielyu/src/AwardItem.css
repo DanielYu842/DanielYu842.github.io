@@ -1,7 +1,7 @@
 .awarditem-div{
     width: 250px;
     height: 250px;
-    background: rgb(150, 150, 150);
+    background: white;
     border-radius: 20px;    
     margin: 15px;
     display: flex;
@@ -19,7 +19,7 @@
     width: 80%;
     text-align: center;
     margin-top: 20px;
-    color: white;
+    color: #4F584F;
     font-weight: bold;
 }
 

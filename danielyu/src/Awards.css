@@ -20,7 +20,7 @@
     font-size: 60px;
     line-height: 83px;
     
-    color: #FFFFFF;
+    color: rgb(224, 224, 224);
 }
 
 .awards-content{
@@ -29,5 +29,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background: lightgrey;
 }
