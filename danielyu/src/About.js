@@ -40,7 +40,7 @@ class About extends React.Component{
                     </div>
                 </div>
                 <div class="footer-div">
-
+                    <div class="footer-copyright">©️ Daniel Yu | All Rights Reserved <br/>Developed as a side project</div>
                 </div>
             </div>
         )

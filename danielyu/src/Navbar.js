@@ -10,9 +10,19 @@ class Navbar extends React.Component{
             checked : "False"
         }
         this.onClick = this.onClick.bind(this);
+        this.setWrapperRef = this.setWrapperRef.bind(this);
+        this.handleClickOutside = this.handleClickOutside.bind(this);
     }
-
+    setWrapperRef(node) {
+        this.wrapperRef = node;
+      }
+    
+    componentWillUnmount() {
+        document.removeEventListener('mousedown', this.handleClickOutside);
+    }
     componentDidMount(){
+        document.addEventListener('mousedown', this.handleClickOutside);
+
         window.addEventListener('scroll', function (e) {
             var nav = document.getElementsByClassName('navbar-div')[0];
             if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
@@ -31,6 +41,13 @@ class Navbar extends React.Component{
 
     }
 
+    handleClickOutside(event) {
+        if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+            this.setState( (prevState) => {
+                document.getElementsByClassName("hidden-navbutton")[0].checked = false
+            })
+        }
+    }
 
     onClick(){
         //this.setState( (prevState) => ({ checked : !prevState}))
@@ -42,7 +59,7 @@ class Navbar extends React.Component{
         return(
             <div class="navbar-div">
                 <div class="logo-div">
-                    <Link to="/home" style={{ textDecoration: 'none' , color: 'white'}}>Daniel Yu</Link>
+                    <Link to="/home" style={{ textDecoration: 'none' , color: 'white'}}>DANIEL YU</Link>
                 </div>
                 <div class="navlinks-div">
                     <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>About</Link>
@@ -50,18 +67,18 @@ class Navbar extends React.Component{
                     <Link to="projects" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Projects</Link>
                     <Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Resume</Link>
                 </div>
-                <nav role="navigation" class="navbar-small">
-                    <div id="menuToggle" onClick={this.onClick}>
+                <nav role="navigation" class="navbar-small" >
+                    <div id="menuToggle" onClick={this.onClick} ref={this.setWrapperRef}>
                         <input type="checkbox" class="hidden-navbutton"/>
                         <span ></span>
                         <span ></span>
                         <span ></span> 
                         <ul id="menu">
-                            <div class="hidden-menu-content">
-                                <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>About</Link>
-                                <Link to="awards" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Awards</Link>
-                                <Link to="projects" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Projects</Link>
-                                <Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'black'}}>Resume</Link>
+                            <div class="hidden-menu-content" >
+                                <Link to="about" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>About</Link>
+                                <Link to="awards" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Awards</Link>
+                                <Link to="projects" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Projects</Link>
+                                <Link to="resume" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Resume</Link>
                             </div>  
                         </ul>
                     </div>

@@ -187,3 +187,17 @@
     transform: skewY(2.5deg);
     z-index: -11;
 }
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright{
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+
+}
