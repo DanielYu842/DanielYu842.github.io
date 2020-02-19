@@ -26,30 +26,34 @@ class About extends React.Component{
                         <div class="about-section-card">
                         <img src={require('./Assets/browsericon.svg')} width="100" class="about-section-icon"/>                        
                         <div class="section-card-title"> Frontend</div>
-                            <div class="about-section-content">
-                                <div class="about-section-content-item">HTML</div>
+                            <div class="about-section-wrapper">
+                                <div class="about-section-content-item">HTML5</div>
                                 <div class="about-section-content-item">CSS3</div>
                                 <div class="about-section-content-item">Javascript</div>
                                 <div class="about-section-content-item">React</div>
-
                             </div>
-                        </div>
-                        <div class="about-section-card">
-                            <img src={require('./Assets/server.svg')} width="85" height="100" class="about-section-icon"/>   
-                            <div class="section-card-title">Backend</div>
-                            <div class="about-section-content-item">Python</div>
-                            <div class="about-section-content-item">Node.js</div>
-                            <div class="about-section-content-item">Express</div>
-                            <div class="about-section-content-item">Firebase</div>
 
                         </div>
                         <div class="about-section-card">
-                            <img src={require('./Assets/algorithm.svg')} width="85" height="100" class="about-section-icon"/>   
+                            <img src={require('./Assets/server.svg')} width="100" class="about-section-icon"/>   
+                            <div class="section-card-title">Backend</div>
+                            <div class="about-section-wrapper">
+                                <div class="about-section-content-item">Python</div>
+                                <div class="about-section-content-item">Node.js</div>
+                                <div class="about-section-content-item">Express</div>
+                                <div class="about-section-content-item">Firebase</div>
+                            </div>
+
+                        </div>
+                        <div class="about-section-card">
+                            <img src={require('./Assets/algorithm.svg')} width="100" class="about-section-icon"/>   
                             <div class="section-card-title">Other</div>
-                            <div class="about-section-content-item">Python</div>
-                            <div class="about-section-content-item">Git/Github</div>
-                            <div class="about-section-content-item">Photoshop</div>
-                            <div class="about-section-content-item">Figma</div>
+                            <div class="about-section-wrapper">
+                                <div class="about-section-content-item">Python</div>
+                                <div class="about-section-content-item">Git/Github</div>
+                                <div class="about-section-content-item">Photoshop</div>
+                                <div class="about-section-content-item">Figma</div>
+                            </div>
 
                         </div>
                     </div>

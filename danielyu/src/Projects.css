@@ -1,0 +1,17 @@
+.projects-title{
+    width: 100%;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 83px;
+    
+    color: white;
+    margin-bottom: 50px;
+}

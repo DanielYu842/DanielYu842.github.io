@@ -21,6 +21,7 @@
     line-height: 83px;
     
     color: white;
+    margin-bottom: 50px;
 }
 
 .awards-content{
@@ -29,4 +30,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+.awards-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(161, 161, 161);
+    width: 100%;
+    flex-grow: 1;
+}
+
+.awards-triangleright{
+    width: 100%;
+    height: 50px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    background: #474747;
+    border-top: 2px solid #474747;
 }

@@ -5,6 +5,8 @@ import About from './About'
 import Home from './Home'
 import Navbar from './Navbar'
 import Awards from './Awards'
+import Projects from './Projects'
+
 class App extends React.Component{
   render(){
     return (
@@ -15,7 +17,7 @@ class App extends React.Component{
             <Route path="/home" component={Home}></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/awards" component={Awards}></Route>
-            <Route path="/projects"></Route>
+            <Route path="/projects" component={Projects}></Route>
             <Route path="/resume"></Route>
             <Route exact path="/" component={Home}></Route>
           </Switch>
