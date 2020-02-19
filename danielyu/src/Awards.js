@@ -13,8 +13,11 @@ class Awards extends React.Component{
                     <div class="awards-triangleright">
                     </div>
                     <div class="awards-content">
+                        <div class="award-filter-button"> 
+                        
+                        </div>
                         <AwardItem title="Canadian Computing Competition" award="Honor Roll Group 2" details="Received a score of 71/75 on the Jr" date="Feb 2020"></AwardItem>
-                        <AwardItem title="DECA Accounting Applications Series" award="Top 20 Oral 1" details="Received a 95/100 on my oral case" date="Feb 2020"></AwardItem>
+                        <AwardItem title="DECA Provincials (ACT)" award="Top 20 Oral 1" details="Received a 95/100 on my oral case" date="Feb 2020"></AwardItem>
                         <AwardItem title="Canadian Open Mathematics Challenge" award="Southwestern Ontario Honor Roll" details="Received a score of 54/80 " date="Jan 2020"></AwardItem>
                         <AwardItem title="MLH Hack Day" award="3rd Place Hack" details="created digitizing automatic cue card generator web application" date="Dec 2019"></AwardItem>
                         <AwardItem title="Hack the Hammer" award="Overall Security Hack" details="created blockchain whistleblower complaint webapp" date="Dec 2019"></AwardItem>
@@ -25,7 +28,7 @@ class Awards extends React.Component{
                         <AwardItem title="Pascal" award="Distinction" date="Feb 2019"></AwardItem>
                         <AwardItem title="Provincial Chess Challenge" award="12th Overall" date="2019"></AwardItem>
                         <AwardItem title="Caribou Math" award="6th Overall" date="2018-2019"></AwardItem>
-                        <AwardItem title="DECA Regionals" award="Top 10 Oral Case" date="Nov 2018"></AwardItem>
+                        <AwardItem title="DECA Regionals (PFN)" award="Top 10 Oral Case" date="Nov 2018"></AwardItem>
                         <AwardItem title="The Canadian Math Kangaroo Contest" award="National Silver Medal; Waterloo Regional First Place" date="2018"></AwardItem>
                         <AwardItem title="Polar Expressions Writing Contest" award="Published Writer" date="2018"></AwardItem>
                         <AwardItem title="Canadian Intermediate Mathematics Challenge" award="Distinction" date="Nov 2018"></AwardItem>

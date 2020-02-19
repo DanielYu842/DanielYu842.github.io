@@ -38,10 +38,10 @@ class About extends React.Component{
                             <img src={require('./Assets/server.svg')} width="100" class="about-section-icon"/>   
                             <div class="section-card-title">Backend</div>
                             <div class="about-section-wrapper">
-                                <div class="about-section-content-item">Python</div>
                                 <div class="about-section-content-item">Node.js</div>
                                 <div class="about-section-content-item">Express</div>
                                 <div class="about-section-content-item">Firebase</div>
+                                <div class="about-section-content-item">GCD</div>
                             </div>
 
                         </div>

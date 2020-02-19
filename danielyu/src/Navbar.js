@@ -75,10 +75,11 @@ class Navbar extends React.Component{
                         <span ></span> 
                         <ul id="menu">
                             <div class="hidden-menu-content" >
-                                <Link to="about" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>About</Link>
-                                <Link to="awards" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Awards</Link>
-                                <Link to="projects" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Projects</Link>
-                                <Link to="resume" class="navitemm" style={{ textDecoration: 'none' , color: 'black'}}>Resume</Link>
+                                <Link to="home" class="navitemm" style={{ textDecoration: 'none' , color: '#232323'}}>Home</Link>
+                                <Link to="about" class="navitemm" style={{ textDecoration: 'none' , color: '#232323'}}>About</Link>
+                                <Link to="awards" class="navitemm" style={{ textDecoration: 'none' , color: '#232323'}}>Awards</Link>
+                                <Link to="projects" class="navitemm" style={{ textDecoration: 'none' , color: '#232323'}}>Projects</Link>
+                                <Link to="resume" class="navitemm" style={{ textDecoration: 'none' , color: '#232323'}}>Resume</Link>
                             </div>  
                         </ul>
                     </div>
