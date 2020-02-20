@@ -65,7 +65,9 @@ class Navbar extends React.Component{
                     <Link to="about" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>About</Link>
                     <Link to="awards" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Awards</Link>
                     <Link to="projects" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Projects</Link>
-                    <Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Resume</Link>
+                    {/*<Link to="resume" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Resume</Link>*/}
+                    <a href="https://drive.google.com/file/d/16DqX_7pJ_TqrTMH5qNL2S3VONJURgIce/view?usp=sharing" target="_blank" class="navitem" style={{ textDecoration: 'none' , color: 'white'}}>Resume</a>
+
                 </div>
                 <nav role="navigation" class="navbar-small" >
                     <div id="menuToggle" onClick={this.onClick} ref={this.setWrapperRef}>

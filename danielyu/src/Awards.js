@@ -13,9 +13,7 @@ class Awards extends React.Component{
                     <div class="awards-triangleright">
                     </div>
                     <div class="awards-content">
-                        <div class="award-filter-button"> 
-                        
-                        </div>
+
                         <AwardItem title="Canadian Computing Competition" award="Honor Roll Group 2" details="Received a score of 71/75 on the Jr" date="Feb 2020"></AwardItem>
                         <AwardItem title="DECA Provincials (ACT)" award="Top 20 Oral 1" details="Received a 95/100 on my oral case" date="Feb 2020"></AwardItem>
                         <AwardItem title="Canadian Open Mathematics Challenge" award="Southwestern Ontario Honor Roll" details="Received a score of 54/80 " date="Jan 2020"></AwardItem>
