@@ -8,11 +8,9 @@ class Awards extends React.Component{
     render(){
         return(
             <div class="awards-div">
-                <div class="awards-title">
-                    My Awards
-                </div>
-                <div class="awards-content-container">
-                    <div class="awards-triangleright">
+                <div class="awards-div-container">
+                    <div class="awards-title">
+                        My Awards
                     </div>
                     <div class="awards-content">
 
@@ -55,10 +53,11 @@ class Awards extends React.Component{
 
 
                     </div>
-                    <div class="Awards-bottomtriangle"></div>
-
+                    {/*<div class="Awards-bottomtriangle"></div>*/}
+                    <div class="footer-div-awards">
+                        <div class="footer-copyright">©️ Daniel Yu | All Rights Reserved <br/>Developed as a side project</div>
+                    </div>
                 </div>
-                <Footer></Footer>
             </div>
         )
     }
