@@ -1,3 +1,11 @@
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
 .projects-title{
     width: 100%;
     margin-top: 100px;
@@ -16,4 +24,11 @@
     margin-bottom: 50px;
     background: red;
 
+}
+
+.projects-content-container{
+    background: blue;
+    min-height: fit-content;
+    width: 100%;
+    flex-grow: 1;
 }

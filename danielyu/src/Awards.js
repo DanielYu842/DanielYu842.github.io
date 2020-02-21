@@ -1,6 +1,8 @@
 import React from 'react';
 import './Awards.css';
-import AwardItem from './AwardItem'
+import AwardItem from './AwardItem';
+import Footer from './Footer';
+
 
 class Awards extends React.Component{
     render(){
@@ -53,7 +55,10 @@ class Awards extends React.Component{
 
 
                     </div>
+                    <div class="Awards-bottomtriangle"></div>
+
                 </div>
+                <Footer></Footer>
             </div>
         )
     }

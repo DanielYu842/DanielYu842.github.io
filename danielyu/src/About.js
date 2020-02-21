@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css'
+import Footer from './Footer'
+
 class About extends React.Component{
     constructor(props){
         super(props)
@@ -59,10 +61,9 @@ class About extends React.Component{
                     </div>
                     <div class="triangle-bottomleft"></div>
                 </div>
-                
-                <div class="footer-div">
-                    <div class="footer-copyright">©️ Daniel Yu | All Rights Reserved <br/>Developed as a side project</div>
-                </div>
+                <Footer>
+                    
+                </Footer>
             </div>
         )
     }
