@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a1eb5a1.chunk.css",
+    "main.js": "/static/js/main.7823e823.chunk.js",
+    "main.js.map": "/static/js/main.7823e823.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.629412b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.629412b4.js.map",
+    "static/js/2.50ecbbe9.chunk.js": "/static/js/2.50ecbbe9.chunk.js",
+    "static/js/2.50ecbbe9.chunk.js.map": "/static/js/2.50ecbbe9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e647d89b74b21d4f6f04140efbffb1bb.js": "/precache-manifest.e647d89b74b21d4f6f04140efbffb1bb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9a1eb5a1.chunk.css.map": "/static/css/main.9a1eb5a1.chunk.css.map",
+    "static/js/2.50ecbbe9.chunk.js.LICENSE.txt": "/static/js/2.50ecbbe9.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/static/media/Image2.3542119d.png",
+    "static/media/Awards.css": "/static/media/AwardsBackground (2).22a4b0f0.jpg",
+    "static/media/Projects.css": "/static/media/ProjectsBackground.636cfc10.jpg",
+    "static/media/algorithm.svg": "/static/media/algorithm.7fd7a7af.svg",
+    "static/media/Home.css": "/static/media/background.1f647cef.jpg",
+    "static/media/browsericon.svg": "/static/media/browsericon.e49c0cb1.svg",
+    "static/media/server.svg": "/static/media/server.9a8c0e83.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.629412b4.js",
+    "static/js/2.50ecbbe9.chunk.js",
+    "static/css/main.9a1eb5a1.chunk.css",
+    "static/js/main.7823e823.chunk.js"
+  ]
+}
