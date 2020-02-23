@@ -1,8 +1,6 @@
 import React from 'react';
 import './Awards.css';
 import AwardItem from './AwardItem';
-import Footer from './Footer';
-
 
 class Awards extends React.Component{
     render(){
@@ -13,7 +11,7 @@ class Awards extends React.Component{
                         My Awards
                     </div>
                     <div class="awards-content">
-
+                        <AwardItem title="SHAD" award="Accepted into SHAD 2020 Summer Program" details="" date="Feb 2020"></AwardItem>
                         <AwardItem title="Canadian Computing Competition" award="Honor Roll Group 2" details="Received a score of 71/75 on the Jr" date="Feb 2020"></AwardItem>
                         <AwardItem title="DECA Provincials (ACT)" award="Top 20 Oral 1" details="Received a 95/100 on my oral case" date="Feb 2020"></AwardItem>
                         <AwardItem title="Canadian Open Mathematics Challenge" award="Southwestern Ontario Honor Roll" details="Received a score of 54/80 " date="Jan 2020"></AwardItem>

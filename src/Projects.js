@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css'
 import Footer from './Footer'
+import ProjectItem from './ProjectItem'
 
 class Projects extends React.Component{
     render(){
@@ -10,6 +11,9 @@ class Projects extends React.Component{
                     <div class="projects-title">My Projects</div>
 
                     <div class="projects-content">
+                        <ProjectItem image="./Assets/Visionary Image.png"></ProjectItem>
+                        <ProjectItem image="./Assets/Visionary Image.png"></ProjectItem>
+                        <ProjectItem image="./Assets/Visionary Image.png"></ProjectItem>
 
                     </div>
 
