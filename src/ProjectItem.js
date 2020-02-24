@@ -9,8 +9,7 @@ class ProjectItem extends React.Component{
             <div class="project-item-div">
                 <div class="project-item-content">
                     <a href={this.props.link}>
-                        <div class="project-image-div" styles={{ backgroundImage:`url(${this.props.image})` }}>
-                       
+                        <div class="project-image-div" style={{ backgroundImage:`url(${this.props.image})` }}>
                         </div>
                     </a>
                     <div class="project-title">
