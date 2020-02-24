@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 .project-item-div{
-    height: 600px;
+    height: 800px;
     width: 300px;
     background: white;
     border-radius: 20px;    
@@ -26,9 +28,14 @@
     width: 280px;
     height: 250px;
     border-radius: 20px;
-    background-image: url('./Assets/Visionary Image.PNG');
     background-position: center;
     background-size: cover;
+}
+
+.project-image-div:hover{
+
+    cursor: pointer;
+    
 }
 
 .project-title{
@@ -37,17 +44,20 @@
     text-align: center;
     height: fit-content;
     margin-top: 5px;
-    margin-bottom: 10px;
-
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-item-footer{
     bottom: 0px;
     height: 60px;
     width: 100%;
-    background: red;
     display: flex;
     border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
 }
 
 .project-description{
@@ -55,11 +65,32 @@
     height: fit-content;
     width: 90%;
     text-align: center;
-}
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 80, 80);
 
+}
+.project-contribution{
+    min-height: 180px;
+    height: fit-content;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 80, 80);
+    margin-top: 20px;
+}
 .project-technologies{
     height: 40px;
     width: 85%;
     margin-top: 20px;
     text-align: center;
+}
+
+.github-logo{
+    margin-left: 10px;
+    
+}
+
+.github-logo:hover{
+    cursor: pointer;
 }
