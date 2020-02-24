@@ -2,8 +2,8 @@ import React from 'react';
 import './Projects.css'
 import Footer from './Footer'
 import ProjectItem from './ProjectItem'
-import Whistler from './Assets/Whistler.jpg'
-import Visionary from './Assets/Visionary Image.PNG'
+import Whistler from './Assets/Whistler.jpg';
+import Visionary from './Assets/VisionaryImage.jpg';
 
 class Projects extends React.Component{
     render(){
@@ -15,7 +15,7 @@ class Projects extends React.Component{
                     <div class="projects-content">
                         <ProjectItem 
                             title="Visionary Development Studios" 
-                            image={Visionary} 
+                            image={Visionary}
                             link="https://google.com" 
                             description="A SaaS model web application that will be the first social platform where users can plan, pledge, commit, and act on setting the planet to the path of environmental sustainability."
                             contribution="Designed the entirety of UI and UX elements of web application on Figma with Photoshop and Illustrator. Developed the front-end client application using React.js. Integrated many API's including a realtime event tracking calendar"
