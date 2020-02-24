@@ -21,7 +21,9 @@ class ProjectItem extends React.Component{
 
 
                     </div>
-
+                    <div class="project-contribution">
+                        {this.props.contribution}
+                    </div>
                     <div class="project-technologies">
                         {this.props.technologies}
                     </div>
