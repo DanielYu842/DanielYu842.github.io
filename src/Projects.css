@@ -32,7 +32,7 @@
     background-image: url(./Assets/ProjectsBackground.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 1800px;
+    min-height: 1400px;
     width: 100%;
     flex-grow: 1;
     display: flex;

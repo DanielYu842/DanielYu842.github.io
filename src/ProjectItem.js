@@ -28,7 +28,7 @@ class ProjectItem extends React.Component{
                     </div>
                 </div>
                 <div class="project-item-footer">
-                    <a href={this.props.github}><img src={require('./Assets/github-logo.svg')} width="40" class="github-logo"/></a>               
+                    <a href={this.props.github} target="_blank"><img src={require('./Assets/github-logo.svg')} width="40" class="github-logo"/></a>               
                 </div>
             </div>
         )
