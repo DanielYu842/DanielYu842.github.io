@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9983e1de8a743b68f47cf82282fd93ba",
+    "revision": "0b79113c6fc95b65a16a0b74debc3bf1",
     "url": "/index.html"
   },
   {
-    "revision": "8b632897918ce7dab6c6",
-    "url": "/static/css/main.13f6248a.chunk.css"
+    "revision": "54831be39ed02cf5674f",
+    "url": "/static/css/main.f9de88e3.chunk.css"
   },
   {
     "revision": "8bdf3e9c06f1c349c1bb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cb787fb4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b632897918ce7dab6c6",
-    "url": "/static/js/main.8faca3b8.chunk.js"
+    "revision": "54831be39ed02cf5674f",
+    "url": "/static/js/main.c902fe46.chunk.js"
   },
   {
     "revision": "f95d4c768a1c35663f22",
@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Whistler.0567d782.jpg"
   },
   {
-    "revision": "7fd7a7af5b87142aa89601ea80c84875",
-    "url": "/static/media/algorithm.7fd7a7af.svg"
+    "revision": "e9e63d127058e552662c00abd3a90851",
+    "url": "/static/media/algorithm.e9e63d12.svg"
   },
   {
     "revision": "1f647cefb84fc42f68f44a96170943ba",
     "url": "/static/media/background.1f647cef.jpg"
   },
   {
-    "revision": "e49c0cb1100bbc61072f03ce1b64d115",
-    "url": "/static/media/browsericon.e49c0cb1.svg"
+    "revision": "e0d4cba185c0244cbd8a203226456129",
+    "url": "/static/media/browsericon.e0d4cba1.svg"
   },
   {
     "revision": "76d344f08412543c74ccd1fb2493d607",
