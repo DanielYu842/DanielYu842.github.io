@@ -3,9 +3,7 @@ import './About.css'
 import Footer from './Footer'
 
 class About extends React.Component{
-    constructor(props){
-        super(props)
-    }
+
     render(){
         return(
             <div class="about-div">
