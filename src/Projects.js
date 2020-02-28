@@ -28,7 +28,7 @@ class Projects extends React.Component{
                             title="Canadian Computing Competition"
                             image={Python}
                             description="A portfolio of CCC Junior problems available on the online grader while studying for the junior competition. Attained a perfect score on majority of problems"
-                            contribution="Includes implementation of fundamental data structures and algorithms. High focus of graph theory with DFS and BFS traversals and recursive solutions with memoization"
+                            contribution="Includes implementation of fundamental data structures and algorithms. High focus on graph theory with DFS and BFS traversals and recursive solutions with memoization"
                             technologies="Python"
                             github="https://github.com/DanielYu2004/CCC-Junior-Solutions"
                         >
