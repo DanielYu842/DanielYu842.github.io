@@ -1,0 +1,107 @@
+.awards-div{
+    display: flex;
+        flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.awards-div-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-image: url('./Assets//AwardsBackground (2).jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+.awards-title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 83px;
+    
+    color: white;
+
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    background: #474747;
+    padding-top: 100px;
+
+
+}
+
+.awards-content{
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+.awards-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.awards-triangleright{
+    width: 100%;
+    height: 50px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    background: #474747;
+    border-top: 2px solid #474747;
+}
+
+.award-filter-button{
+    width: 100%;
+    height: 50px;
+}
+
+
+.Awards-bottomtriangle{
+    width: 100%;
+    height: 50px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100% );
+    background: #474747;
+    border-bottom: 2px solid #474747;
+
+}
+
+.awards-filler{
+    height: 100px;
+    width: 100%;
+}
+
+.footer-div-awards{
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: #474747;
+
+
+}
+
+.footer-copyright{
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.6;
+    margin-top: 50px;
+}
