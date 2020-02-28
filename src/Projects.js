@@ -12,7 +12,7 @@ class Projects extends React.Component{
         return(
             <div class="projects-div">
                 <div class="projects-content-container">
-                    <div class="projects-title">My Projects TEST</div>
+                    <div class="projects-title">My Projects</div>
 
                     <div class="projects-content">
                         <ProjectItem 
