@@ -18,7 +18,6 @@ class Projects extends React.Component{
                         <ProjectItem 
                             title="Visionary Development Studios" 
                             image={Visionary}
-                            link="https://google.com" 
                             description="A SaaS model web application that will be the first social platform where users can plan, pledge, commit, and act on setting the planet to the path of environmental sustainability."
                             contribution="Designed the entirety of UI and UX elements of web application on Figma with Photoshop and Illustrator. Developed the front-end client application using React.js. Integrated many API's including a realtime event tracking calendar"
                             technologies="React | Javascript | Figma  Photoshop | Illustrator"
