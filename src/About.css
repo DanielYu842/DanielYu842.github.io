@@ -50,11 +50,10 @@
 }
 
 .about-image-div{
-    background-image: url('./Assets/Image2.png');
+    background-image: url('./Assets/About Profile.png');
     width: 400px;
     height: 500px;
     background-size: cover;
-    background-position: 92% center;
     margin: 150px;
     margin-right: 20px;
     margin-left: 20px;
