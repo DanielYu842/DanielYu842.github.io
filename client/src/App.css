@@ -25,7 +25,7 @@
 .landing-div{
   height: 100vh;
   width: 100%;
-  background-image: url("./assets//test.svg");
+  background-image: url("./assets//background.svg");
   background-size: 100% 100%;
   display: flex;
 }
@@ -33,7 +33,7 @@
 .skills-div{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, #A1BCFF 0%, #4B77E6 100%);
+  background: linear-gradient(180deg, #739BFF 0%, #1B4CC7 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,4 +115,59 @@
   height: fit-content;
   display: flex;
   align-items: center;
+}
+
+
+.curve-div{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/background1.svg");
+  background-size: 100% 100%;
+}
+
+
+/*ocean animation https://codepen.io/tedmcdo/pen/PqxKXg*/
+.ocean { 
+  height: 0%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #739BFF;
+}
+
+.wave {
+  background: url("./assets/ocean.svg") repeat-x; 
+  position: absolute;
+  top: -168px;
+  width: 6400px;
+  height: 168px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
 }

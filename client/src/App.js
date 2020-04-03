@@ -27,7 +27,12 @@ class App extends React.Component {
               <div className="title-3">seeking development related opportunities</div>
               <div className="button-div">RESUME</div>
             </div>
-          </div>    
+            <div class="ocean">
+              <div class="wave"></div>
+              <div class="wave"></div>
+            </div>
+        </div>   
+ 
           <div className="filler-div1"></div>
         </div>
         <div className="skills-div">         
