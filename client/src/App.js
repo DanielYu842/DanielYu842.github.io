@@ -3,6 +3,8 @@ import '../node_modules/aos/dist/aos.css';
 import './App.css';
 import AOS from 'aos'; 
 import Card from './card'
+import reactLogo from './assets/react-2.svg'
+
 class App extends React.Component {
   constructor(){
     super()
@@ -27,12 +29,10 @@ class App extends React.Component {
           </div>    
           <div className="filler-div1"></div>
         </div>
-        <div className="skills-div">
-          <div className="card1">          
-            <Card></Card>
-          </div>
-
+        <div className="skills-div">         
+            <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo}></Card>
         </div>
+
       </div>
     );
   }

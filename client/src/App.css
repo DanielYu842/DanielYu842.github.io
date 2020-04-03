@@ -37,7 +37,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .title-div{
@@ -111,3 +110,9 @@
 
 }
 
+.card1{
+  background: red;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}

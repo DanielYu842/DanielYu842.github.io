@@ -1,22 +1,29 @@
 import React from 'react';
 import "./card.scss";
 
+
 class Card extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+
+        }
+    }
     render(){
         return(
-            <div class="skill-card">
-                <header class="skill-card__header">
-                    <img class="skill-card__icon" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5 Logo" />
-                </header>
-                <section class="skill-card__body">
-                    <h2 class="skill-card__title">html</h2><span class="skill-card__duration">6 ans d'expérience</span>
+            <div class="skill-card" data-aos="fade-right">
+                <div class="skill-card__header">
+                    <img class="skill-card__icon" src={this.props.logo} alt="HTML5 Logo" />
+                </div>
+                <div class="skill-card__body">
+                    <h2 class="skill-card__title">{this.props.one}</h2><span class="skill-card__duration">Primary</span>
                     <ul class="skill-card__knowledge">
-                        <li>HTML5</li>
-                        <li>Sémantique</li>
-                        <li>SVG</li>
-                        <li>Canvas</li>
+                        <li>{this.props.two}</li>
+                        <li>{this.props.three}</li>
+                        <li>{this.props.four}</li>
+                        <li>{this.props.five}</li>
                     </ul>
-                </section>
+                </div>
             </div>
         )
     }
