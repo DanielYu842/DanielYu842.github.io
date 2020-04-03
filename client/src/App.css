@@ -32,9 +32,12 @@
 
 .skills-div{
   height: 100vh;
-  min-height: fit-content;
   width: 100%;
-  background: linear-gradient(180deg, #A1BCFF 0%, #4B77E6 99.94%);
+  background: linear-gradient(180deg, #A1BCFF 0%, #4B77E6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .title-div{
@@ -63,8 +66,8 @@
   font-size: 25px;
   line-height: 30px;
   /* identical to box height */
-  
-  color: #0C3AAD;
+
+  color: #364AFF;
 }
 
 .title-2{
@@ -85,3 +88,26 @@
 
   color: #979ca2;
 }
+
+.button-div{
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  border: 5px solid #364AFF;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  transition: all 0.2s linear;
+  margin-top: 20px;
+}
+
+.button-div:hover{
+  cursor: pointer;
+  background: #364AFF;
+  color: white;
+
+}
+
