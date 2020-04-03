@@ -9,6 +9,11 @@ class Card extends React.Component{
 
         }
     }
+
+    componentDidMount(){
+        document.getElementsByClassName("skill-card__header")[0].style.background = this.props.background
+    }
+
     render(){
         return(
             <div class="skill-card" data-aos="fade-right">

@@ -4,6 +4,7 @@ import './App.css';
 import AOS from 'aos'; 
 import Card from './card'
 import reactLogo from './assets/react-2.svg'
+import nodeLogo from './assets/nodejs.svg'
 
 class App extends React.Component {
   constructor(){
@@ -30,7 +31,8 @@ class App extends React.Component {
           <div className="filler-div1"></div>
         </div>
         <div className="skills-div">         
-            <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo}></Card>
+            <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo} background="white"></Card>
+            <Card one="Backend" two="Node" three="Python" four="Firebase" five="GCP" logo={nodeLogo} background="white"></Card>
         </div>
 
       </div>
