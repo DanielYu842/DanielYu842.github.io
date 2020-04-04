@@ -14,6 +14,12 @@ import Whistler from "./assets/projects/whistlerLogo.svg"
 import WhistlerBackground from './assets/projects/WhistlerBackground.svg'
 
 import Python from './assets/projects/python-logo.png'
+import PythonBackground from "./assets/projects/PythonBackground.svg"
+
+import Visionary from './assets/projects/Visionary-A2.png'
+import VisionaryBackground from "./assets/projects/VisionaryBackground.svg"
+
+import SimilarnymBackground from './assets/projects/SimilarnymBackground.svg'
 
 class App extends React.Component {
   constructor(){
@@ -77,16 +83,40 @@ class App extends React.Component {
             img={Whistler}
             background={WhistlerBackground}
             > </Project>
+
+
             <Project
             title="Canadian Computing Competition Jr"
             desc="A portfolio of solutions implementing data structures and algorithms. High focus on graph theory traversals and recursive solutions with memoization"
             num={2}
             img={Python}
-            > </Project>
-            <Project
-            num={3}
+            background={PythonBackground}
+            github="https://github.com/DanielYu2004/CCC-Junior-Solutions"
+            tech="Python | Algorithms Data Structures"
             > </Project>
 
+
+            <Project
+            num={3}
+            img={Visionary}
+            title="Visionary"
+            desc="A SaaS model web application where users can plan, pledge, commit, and act on setting the planet to the path of environmental sustainability"
+            tech="React | Javascript | CSS Illustrator | Photoshop Figma"
+            web="https://www.visionary.app/"
+            background={VisionaryBackground}
+            > </Project>
+
+            <Project
+            num={4}
+            title="Similarnym"
+            desc="A deployed web application that generates 'similarnyms', words of similar application rather than a synonym, a word of near exact translation"
+            img="https://img.icons8.com/flat_round/512/000000/bookmark-book.png"
+            tech="React | Fetch API Javascript | CSS"
+            web="https://danielyu2004.github.io/Similarnym/"
+            background={SimilarnymBackground}
+            >
+
+            </Project>
           </div>
         </div>
       </div>
