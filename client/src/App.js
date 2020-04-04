@@ -5,6 +5,15 @@ import AOS from 'aos';
 import Card from './card'
 import reactLogo from './assets/react-2.svg'
 import nodeLogo from './assets/nodejs.svg'
+import Project from './project.js'
+
+import Covaid from './assets/projects/covaid.png'
+import CovaidBackground from './assets/projects/CovaidBackground.svg'
+
+import Whistler from "./assets/projects/whistlerLogo.svg"
+import WhistlerBackground from './assets/projects/WhistlerBackground.svg'
+
+import Python from './assets/projects/python-logo.png'
 
 class App extends React.Component {
   constructor(){
@@ -36,10 +45,50 @@ class App extends React.Component {
           <div className="filler-div1"></div>
         </div>
         <div className="skills-div">         
-            <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo} background="white"></Card>
-            <Card one="Backend" two="Node" three="Python" four="Firebase" five="GCP" logo={nodeLogo} background="white"></Card>
+            <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo} background="black" num={0} fade="fade-right" s="Primary"></Card>
+            <Card one="Backend" two="Node" three="Python" four="Firebase" five="GCP" logo={nodeLogo} background="white" num={1} fade="fade-left" s="Secondary"></Card>
         </div>
+        <div className="projects-div">
+          <div className="projects-curve">
+            <svg width="100%" height="377" preserveAspectRatio="none" viewBox="0 0 1440 377" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1189 194.499C1322.11 194.499 1374.52 145.185 1440 122.515V-0.00088501H0V318.501C140 421 262 387.5 223.5 214C179.279 14.7166 623.868 93.3928 719 103.499C898 122.515 1020.5 194.499 1189 194.499Z" fill="#1B4CC7"/>
+            </svg>
+          </div>
+          <div className="projects-title">MY PROJECTS</div>
+          <div className="projects-content">
+            <Project 
+            title="COV-AID" 
+            desc="A web application that helps improve the processes of receiving financial relief during COVID-19 by utilizing blockchain technology" 
+            tech="React | Node | Express Restful API | CSS" 
+            github="https://github.com/DanielYu2004/Winhacks-COV-AID"
+            web="https://devpost.com/software/cov-aid"
+            img={Covaid}
+            background={CovaidBackground}
+            num={0}
+            > </Project>
 
+            <Project
+            num={1}
+            title="Whistler"
+            desc="A blockchain application that allows users to securely and anonymously upload whistleblower complaints using IPFS and Metamask auth"
+            tech="React | Javascript Node | CSS | Illustrator"
+            github="https://github.com/DanielYu2004/Whistler-Hack-The-Hammer"
+            web="https://devpost.com/software/whistler"
+            img={Whistler}
+            background={WhistlerBackground}
+            > </Project>
+            <Project
+            title="Canadian Computing Competition Jr"
+            desc="A portfolio of solutions implementing data structures and algorithms. High focus on graph theory traversals and recursive solutions with memoization"
+            num={2}
+            img={Python}
+            > </Project>
+            <Project
+            num={3}
+            > </Project>
+
+          </div>
+        </div>
       </div>
     );
   }

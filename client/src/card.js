@@ -11,17 +11,17 @@ class Card extends React.Component{
     }
 
     componentDidMount(){
-        document.getElementsByClassName("skill-card__header")[0].style.background = this.props.background
+        document.getElementsByClassName("skill-card__header")[this.props.num].style.background = this.props.background
     }
 
     render(){
         return(
-            <div class="skill-card" data-aos="fade-right">
+            <div class="skill-card" data-aos={this.props.fade}>
                 <div class="skill-card__header">
                     <img class="skill-card__icon" src={this.props.logo} alt="HTML5 Logo" />
                 </div>
                 <div class="skill-card__body">
-                    <h2 class="skill-card__title">{this.props.one}</h2><span class="skill-card__duration">Primary</span>
+                    <h2 class="skill-card__title">{this.props.one}</h2><span class="skill-card__duration">{this.props.s}</span>
                     <ul class="skill-card__knowledge">
                         <li>{this.props.two}</li>
                         <li>{this.props.three}</li>

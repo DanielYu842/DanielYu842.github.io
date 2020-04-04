@@ -1,0 +1,90 @@
+.project-div{
+    width: 40%;
+    max-width: 500px;
+    min-width: 400px;
+    height: 200px;
+    min-height: fit-content;
+    margin: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-size: 100% 100%;
+    transition: all 0.3s ease-out;
+
+    display: flex;
+}
+
+.project-image-div{
+    width: 200px;
+    height: 200px;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-filler1{
+    width: 5%;
+}
+.project-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+
+}
+
+.project-title{
+    margin-top: 10px;   
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.project-desc{
+    font-size: 13px;
+    color: rgb(107, 107, 107);
+    min-height: fit-content;
+}
+
+.project-tech{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    min-height: fit-content;
+    width: 150px;
+
+}
+
+.project-filler2{
+    flex: 1;
+}
+
+.project-bottom{
+    margin-bottom: 10px;
+    display: flex;
+    min-height: fit-content;
+
+}
+
+.project-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.project-icons a{
+    margin:5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.project-icons a img:hover{
+    cursor: pointer;
+}
