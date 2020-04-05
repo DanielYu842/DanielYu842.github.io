@@ -136,6 +136,14 @@
 
 
 /*ocean animation https://codepen.io/tedmcdo/pen/PqxKXg*/
+
+.ocean-container{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  z-index: -1;
+}
 .ocean { 
   height: 0%;
   width:100%;

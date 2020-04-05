@@ -36,9 +36,11 @@ class App extends React.Component {
         </div>
         <div className="landing-div">   
           <div className="landing-background"></div> 
-          <div className="ocean">
-            <div className="wave"></div>
-            <div className="wave"></div>
+          <div className="ocean-container">
+            <div className="ocean">
+              <div className="wave"></div>
+              <div className="wave"></div>
+            </div>
           </div>
           <div className="title-div">
             <div className="title-content">            
