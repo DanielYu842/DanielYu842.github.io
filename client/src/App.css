@@ -26,6 +26,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  min-height: fit-content;
 }
 
 .skills-div{
@@ -63,6 +64,7 @@
 }
 .title-content{
   width: 70%;
+  height: fit-content;
 }
 .title-1{
   
@@ -119,7 +121,6 @@
 }
 
 .card1{
-  background: red;
   height: fit-content;
   display: flex;
   align-items: center;
@@ -388,5 +389,21 @@ flex: 1;
   .title-3{
     font-size: 17px;
     line-height: 25px;
+  }
+}
+
+@media only screen and (max-height: 400px){
+  .skills-div{
+    padding-top: 100px;
+  }
+  .navbar-div{
+    display: none;
+  }
+  .title-3{
+    color: black;
+  }
+  .title-div{
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }

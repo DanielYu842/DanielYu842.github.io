@@ -20,7 +20,7 @@ import Visionary from './assets/projects/Visionary-A2.png'
 import VisionaryBackground from "./assets/projects/VisionaryBackground.svg"
 
 import SimilarnymBackground from './assets/projects/SimilarnymBackground.svg'
-import PDF from './assets/RESUME.pdf'
+import PDF from './assets/RESUME2.pdf'
 class App extends React.Component {
   constructor(){
     super()
