@@ -1,7 +1,8 @@
+
+
 .project-div{
-    width: 40%;
+    width: fit-content;
     max-width: 500px;
-    min-width: 450px;
     min-height: 200px;
     height: fit-content;
     
@@ -33,13 +34,12 @@
     display: flex;
     flex-direction: column;
     min-height: fit-content;
-
 }
 .project-details{
     display: flex;
     flex-direction: column;
     min-height: fit-content;
-
+    max-width: 300px;
 }
 
 .project-title{
@@ -53,6 +53,7 @@
     font-size: 13px;
     color: rgb(107, 107, 107);
     min-height: fit-content;
+    width: 90%;
 }
 
 .project-tech{
@@ -89,4 +90,34 @@
 
 .project-icons a img:hover{
     cursor: pointer;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .project-div{
+        width: 300;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .project-filler2{
+        display: none;
+    }
+    .project-content{
+        flex: 0;
+        width: fit-content;
+        width: 200px;
+        margin-left: 10px;
+    }
+    .project-filler1{
+        display: none;
+    }
 }

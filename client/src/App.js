@@ -34,25 +34,35 @@ class App extends React.Component {
         <div className="navbar-div">
           <div className="logo">daniel yu</div>
         </div>
-        <div className="landing-div">    
+        <div className="landing-div">   
+          <div className="landing-background"></div> 
+          <div className="ocean">
+            <div className="wave"></div>
+            <div className="wave"></div>
+          </div>
           <div className="title-div">
             <div className="title-content">            
               <div className="title-1">Hey, I'm Daniel</div>
               <div className="title-2">I AM A DEVELOPER</div>
-              <div className="title-3">seeking development related opportunities</div>
+              <div className="title-3">highschool student seeking development related opportunities</div>
               <div className="button-div">RESUME</div>
             </div>
-            <div class="ocean">
-              <div class="wave"></div>
-              <div class="wave"></div>
-            </div>
+
         </div>   
  
           <div className="filler-div1"></div>
         </div>
-        <div className="skills-div">         
+        <div className="skills-div">       
+          <div className="cards-div"> 
             <Card one="Frontend" two="React" three="Javascript" four="HTML" five="CSS" logo={reactLogo} background="black" num={0} fade="fade-right" s="Primary"></Card>
             <Card one="Backend" two="Node" three="Python" four="Firebase" five="GCP" logo={nodeLogo} background="white" num={1} fade="fade-left" s="Secondary"></Card>
+          </div> 
+          <div className="profile-div">
+            <div className="profile-card" data-aos="fade-left">
+              <div className="profile-title">About Me</div>
+              <div className="profile-content">I am a highschool developer from Waterloo Ontario with a strong passion for programming. Currently looking for opportunities to advance my development career and hone my technical skills.</div>
+            </div>
+          </div>
         </div>
         <div className="projects-div">
           <div className="projects-curve">
@@ -118,6 +128,25 @@ class App extends React.Component {
 
             </Project>
           </div>
+        </div>
+        <div className="footer-div">
+          <div className="footer-content">
+            <div className="footer-contact">
+              <div className="filler3"></div>
+              <div className="footer-title">Daniel Yu</div>
+              <div>danielyu2004@icloud.com</div>
+              <div>226-988-9168</div>
+              <div className="social-div">
+                <div class="social-btns">
+                  <a class="btn linkedin" href="https://www.linkedin.com/in/danielyu2004" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn github" href="https://github.com/danielyu2004" target="_blank"><i class="fa fa-github"></i></a>
+                  <a class="btn envelope-square" href = "mailto: danielyu2004@icloud.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer-bottom">Developed as a side project</div>
+          {/*//https://codepen.io/rustcode/pen/LMaLmy*/}
         </div>
       </div>
     );
