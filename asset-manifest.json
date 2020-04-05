@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7820b78f.chunk.css",
+    "main.js": "/static/js/main.fb199ed0.chunk.js",
+    "main.js.map": "/static/js/main.fb199ed0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35eb2b37.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35eb2b37.js.map",
+    "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
+    "static/js/2.b42c3d85.chunk.js": "/static/js/2.b42c3d85.chunk.js",
+    "static/js/2.b42c3d85.chunk.js.map": "/static/js/2.b42c3d85.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.906f0a337177ac2526aa9b4dba27d059.js": "/precache-manifest.906f0a337177ac2526aa9b4dba27d059.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.7820b78f.chunk.css.map": "/static/css/main.7820b78f.chunk.css.map",
+    "static/js/2.b42c3d85.chunk.js.LICENSE.txt": "/static/js/2.b42c3d85.chunk.js.LICENSE.txt",
+    "static/media/CovaidBackground.svg": "/static/media/CovaidBackground.c79245ae.svg",
+    "static/media/PythonBackground.svg": "/static/media/PythonBackground.0815f337.svg",
+    "static/media/RESUME2.pdf": "/static/media/RESUME2.bae0af94.pdf",
+    "static/media/SimilarnymBackground.svg": "/static/media/SimilarnymBackground.5683506d.svg",
+    "static/media/Visionary-A2.ea196a40.png": "/static/media/Visionary-A2.ea196a40.png",
+    "static/media/VisionaryBackground.svg": "/static/media/VisionaryBackground.694e2183.svg",
+    "static/media/WhistlerBackground.svg": "/static/media/WhistlerBackground.63f88205.svg",
+    "static/media/App.css": "/static/media/ocean.9c0a9fdd.svg",
+    "static/media/covaid.9042e929.png": "/static/media/covaid.9042e929.png",
+    "static/media/github.svg": "/static/media/github.058a5b6f.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.89ccb090.svg",
+    "static/media/python-logo.f0c9d647.png": "/static/media/python-logo.f0c9d647.png",
+    "static/media/react-2.svg": "/static/media/react-2.c3fbd71b.svg",
+    "static/media/webdev.svg": "/static/media/webdev.0b8228ff.svg",
+    "static/media/whistlerLogo.svg": "/static/media/whistlerLogo.9dcd7248.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35eb2b37.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.b42c3d85.chunk.js",
+    "static/css/main.7820b78f.chunk.css",
+    "static/js/main.fb199ed0.chunk.js"
+  ]
+}
