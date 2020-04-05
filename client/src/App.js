@@ -45,7 +45,7 @@ class App extends React.Component {
               <div className="title-1">Hey, I'm Daniel</div>
               <div className="title-2">I AM A DEVELOPER</div>
               <div className="title-3">highschool student seeking development related opportunities</div>
-              <a href={PDF} target="_blank" style={{textDecoration : "none", color: "black"}}><div className="button-div">RESUME</div></a>
+              <a rel="noopener noreferrer" href={PDF} target="_blank" style={{textDecoration : "none", color: "black"}}><div className="button-div">RESUME</div></a>
             </div>
 
         </div>   
@@ -137,10 +137,10 @@ class App extends React.Component {
               <div>danielyu2004@icloud.com</div>
               <div>226-988-9168</div>
               <div className="social-div">
-                <div class="social-btns">
-                  <a class="btn linkedin" href="https://www.linkedin.com/in/danielyu2004" target="_blank"><i class="fa fa-linkedin"></i></a>
-                  <a class="btn github" href="https://github.com/danielyu2004" target="_blank"><i class="fa fa-github"></i></a>
-                  <a class="btn envelope-square" href = "mailto: danielyu2004@icloud.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
+                <div className="social-btns">
+                  <a className="btn linkedin" rel="noopener noreferrer" href="https://www.linkedin.com/in/danielyu2004" target="_blank"><i className="fa fa-linkedin"></i></a>
+                  <a className="btn github" rel="noopener noreferrer" href="https://github.com/danielyu2004" target="_blank"><i className="fa fa-github"></i></a>
+                  <a className="btn envelope-square" rel="noopener noreferrer" href = "mailto: danielyu2004@icloud.com" target="_blank"><i className="fa fa-envelope-square"></i></a>
                 </div>
               </div>
             </div>

@@ -16,13 +16,13 @@ class Card extends React.Component{
 
     render(){
         return(
-            <div class="skill-card" data-aos={this.props.fade}>
-                <div class="skill-card__header">
-                    <img class="skill-card__icon" src={this.props.logo} alt="HTML5 Logo" />
+            <div className="skill-card" data-aos={this.props.fade}>
+                <div className="skill-card__header">
+                    <img className="skill-card__icon" alt={`${this.props.two} Logo`}src={this.props.logo}/>
                 </div>
-                <div class="skill-card__body">
-                    <h2 class="skill-card__title">{this.props.one}</h2><span class="skill-card__duration">{this.props.s}</span>
-                    <ul class="skill-card__knowledge">
+                <div className="skill-card__body">
+                    <h2 className="skill-card__title">{this.props.one}</h2><span className="skill-card__duration">{this.props.s}</span>
+                    <ul className="skill-card__knowledge">
                         <li>{this.props.two}</li>
                         <li>{this.props.three}</li>
                         <li>{this.props.four}</li>
