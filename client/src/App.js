@@ -20,7 +20,7 @@ import Visionary from './assets/projects/Visionary-A2.png'
 import VisionaryBackground from "./assets/projects/VisionaryBackground.svg"
 
 import SimilarnymBackground from './assets/projects/SimilarnymBackground.svg'
-
+import PDF from './assets/RESUME.pdf'
 class App extends React.Component {
   constructor(){
     super()
@@ -45,7 +45,7 @@ class App extends React.Component {
               <div className="title-1">Hey, I'm Daniel</div>
               <div className="title-2">I AM A DEVELOPER</div>
               <div className="title-3">highschool student seeking development related opportunities</div>
-              <div className="button-div">RESUME</div>
+              <a href={PDF} target="_blank" style={{textDecoration : "none", color: "black"}}><div className="button-div">RESUME</div></a>
             </div>
 
         </div>   
