@@ -1,6 +1,6 @@
 import React from "react";
 // import { Button } from "antd";
-import { Hero } from "./Components";
+import { Hero, About, Skills, Work, Achievements, Footer } from "./Components";
 
 import "./styles.less";
 import "./App.less";
@@ -9,6 +9,11 @@ function App() {
   return (
     <div className="App">
       <Hero />
+      <About />
+      <Skills />
+      <Work />
+      <Achievements />
+      <Footer />
       {/* <div className="title_text">Hey, I&lsquo;m Daniel</div>
       <Button type="primary" className="large_button">
         Resume
@@ -22,6 +27,7 @@ function App() {
       </div>
       <div className="large_subheading_text">About Me</div>
       <div className="small_subheading_text">Visionary Fellowship</div>
+      <div className="small_secondary_subheading_text">HTML</div>
       <div className="small_secondary_text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Tempor orci eu lobortis elementum nibh tellus molestie.
