@@ -4,7 +4,7 @@ import "./About.less";
 
 function About() {
   return (
-    <div className="section about_section">
+    <div className="section about_section" data-aos="fade-down">
       <div className="large_subheading_text">About Me</div>
       <div className="large_secondary_text">
         Hello! I&lsquo;m Daniel and I have a passion for problem solving and innovation.

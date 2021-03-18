@@ -7,7 +7,7 @@ function Card() {
   return (
     <div className="work_section__card">
       <div className="work_section__card_content">
-        <Jamhacks />
+        <Jamhacks className="work_section__card_image" />
         <div className="work_section__card_content_text">
           <div className="small_subheading_text work_section__card_content_subheading">
             Jamhacks

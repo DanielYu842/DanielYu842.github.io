@@ -5,7 +5,7 @@ import "./Skills.less";
 
 function Skills() {
   return (
-    <div className="section skills_section">
+    <div className="section skills_section" data-aos="fade-down">
       <div className="large_subheading_text">Skills</div>
       <span className="skills_section__container">
         <Card data={frontend} />

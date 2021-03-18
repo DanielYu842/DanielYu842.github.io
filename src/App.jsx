@@ -1,11 +1,19 @@
 import React from "react";
-// import { Button } from "antd";
+import AOS from "aos";
+
 import { Hero, About, Skills, Work, Achievements, Footer } from "./Components";
 
 import "./styles.less";
 import "./App.less";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 function App() {
+  React.useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
       <Hero />

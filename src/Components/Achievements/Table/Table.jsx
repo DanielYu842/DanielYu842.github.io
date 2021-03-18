@@ -11,7 +11,19 @@ const columns = [
         ))}
       </>
     ),
-    render: (record) => <>{record.award}</>,
+    render: (record) => (
+      <>
+        {[
+          { name: record.award, style: { fontWeight: "bold" } },
+          { name: record.name, style: { fontWeight: "bold" } },
+          { name: record.score, style: {} },
+          { name: record.description, style: { color: "#515151" } },
+          { name: record.year, style: { fontWeight: "bold" } },
+        ].map((value) => (
+          <div style={value.style}>{value.name}</div>
+        ))}
+      </>
+    ),
     responsive: ["xs"],
   },
   {
