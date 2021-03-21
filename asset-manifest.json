@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/daniel-yu.com/static/css/main.657e84aa.chunk.css",
-    "main.js": "/daniel-yu.com/static/js/main.bfde184c.chunk.js",
-    "main.js.map": "/daniel-yu.com/static/js/main.bfde184c.chunk.js.map",
+    "main.css": "/daniel-yu.com/static/css/main.5e43c674.chunk.css",
+    "main.js": "/daniel-yu.com/static/js/main.b768010a.chunk.js",
+    "main.js.map": "/daniel-yu.com/static/js/main.b768010a.chunk.js.map",
     "runtime-main.js": "/daniel-yu.com/static/js/runtime-main.05ecc211.js",
     "runtime-main.js.map": "/daniel-yu.com/static/js/runtime-main.05ecc211.js.map",
     "static/css/2.ec02d681.chunk.css": "/daniel-yu.com/static/css/2.ec02d681.chunk.css",
@@ -10,18 +10,18 @@
     "static/js/2.dac4cd2b.chunk.js.map": "/daniel-yu.com/static/js/2.dac4cd2b.chunk.js.map",
     "index.html": "/daniel-yu.com/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/daniel-yu.com/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.657e84aa.chunk.css.map": "/daniel-yu.com/static/css/main.657e84aa.chunk.css.map",
+    "static/css/main.5e43c674.chunk.css.map": "/daniel-yu.com/static/css/main.5e43c674.chunk.css.map",
     "static/js/2.dac4cd2b.chunk.js.LICENSE.txt": "/daniel-yu.com/static/js/2.dac4cd2b.chunk.js.LICENSE.txt",
-    "static/media/stylesheet.css": "/daniel-yu.com/static/media/VarelaRound-Regular.d2c6f80a.svg",
+    "static/media/stylesheet.css": "/daniel-yu.com/static/media/VarelaRound-Regular.be6d579a.eot",
     "static/media/Antd.c68efa28.png": "/daniel-yu.com/static/media/Antd.c68efa28.png",
-    "static/media/Arrow.912459a7.svg": "/daniel-yu.com/static/media/Arrow.912459a7.svg",
+    "static/media/Arrow.56fe2b80.svg": "/daniel-yu.com/static/media/Arrow.56fe2b80.svg",
     "static/media/CPP.cba3429e.png": "/daniel-yu.com/static/media/CPP.cba3429e.png",
     "static/media/Daniel.27840794.png": "/daniel-yu.com/static/media/Daniel.27840794.png",
     "static/media/Firebase.e372e64a.png": "/daniel-yu.com/static/media/Firebase.e372e64a.png",
-    "static/media/Github.104f3fa7.svg": "/daniel-yu.com/static/media/Github.104f3fa7.svg",
-    "static/media/Jamhacks.a623b045.svg": "/daniel-yu.com/static/media/Jamhacks.a623b045.svg",
+    "static/media/Github.4591ee28.svg": "/daniel-yu.com/static/media/Github.4591ee28.svg",
+    "static/media/Jamhacks.f0657452.svg": "/daniel-yu.com/static/media/Jamhacks.f0657452.svg",
     "static/media/Less.5d2cde8e.png": "/daniel-yu.com/static/media/Less.5d2cde8e.png",
-    "static/media/Linkedin.1ddbf18f.svg": "/daniel-yu.com/static/media/Linkedin.1ddbf18f.svg",
+    "static/media/Linkedin.85b60792.svg": "/daniel-yu.com/static/media/Linkedin.85b60792.svg",
     "static/media/Mongo.f866418d.png": "/daniel-yu.com/static/media/Mongo.f866418d.png",
     "static/media/OpenAPI.c0e88445.png": "/daniel-yu.com/static/media/OpenAPI.c0e88445.png",
     "static/media/Postman.41d3b434.png": "/daniel-yu.com/static/media/Postman.41d3b434.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.05ecc211.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.dac4cd2b.chunk.js",
-    "static/css/main.657e84aa.chunk.css",
-    "static/js/main.bfde184c.chunk.js"
+    "static/css/main.5e43c674.chunk.css",
+    "static/js/main.b768010a.chunk.js"
   ]
 }
