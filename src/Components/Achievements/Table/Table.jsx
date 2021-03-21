@@ -20,7 +20,9 @@ const columns = [
           { name: record.description, style: { color: "#515151" } },
           { name: record.year, style: { fontWeight: "bold" } },
         ].map((value) => (
-          <div style={value.style}>{value.name}</div>
+          <div style={value.style} key={value.name}>
+            {value.name}
+          </div>
         ))}
       </>
     ),
