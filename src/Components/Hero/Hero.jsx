@@ -16,12 +16,20 @@ function Hero() {
           science.
         </div>
         <span className="hero_section__actions">
-          <Button type="primary" className="large_button hero_section__button">
-            Resume
-          </Button>
-          <Button type="primary" ghost className="large_button">
-            Contact
-          </Button>
+          <a
+            href="https://drive.google.com/file/d/1UBV3g8NZiEpD1WTbhbALeLt0BWMwiNdF/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button type="primary" className="large_button hero_section__button">
+              Resume
+            </Button>
+          </a>
+          <a href="mailto:daniel2004yu@gmail.com" target="_blank" rel="noreferrer">
+            <Button type="primary" ghost className="large_button">
+              Contact
+            </Button>
+          </a>
         </span>
         <span>
           <a href="https://github.com/DanielYu2004" target="_blank" rel="noreferrer">
