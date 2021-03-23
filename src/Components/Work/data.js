@@ -1,41 +1,33 @@
-import { ReactComponent as Jamhacks } from "../../Assets/Images/Work/Jamhacks.svg";
+import { Jamhacks, mettleAI, Visionary, CEMC } from "../../Assets/Images/Work";
 
 const work = [
   {
-    image: Jamhacks,
-    title: "Jamhacks",
-    description: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Tempor orci eu lobortis 
-    elementum nibh tellus molestie.`,
-    link: "www.google.com",
+    image: mettleAI,
+    title: "mettleAI",
+    description:
+      "Predicting substance abuse and overall mental health regressive behaviour before it happens using a predictive model created with ML/AI.",
+    link: "https://mettleai.com/",
   },
   {
     image: Jamhacks,
     title: "Jamhacks",
-    description: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Tempor orci eu lobortis 
-    elementum nibh tellus molestie.`,
-    link: "www.google.com",
+    description:
+      "Waterloo's biggest highschool hackathon, bringing together 200+ students from highschools all over North America for a full 24 hours of hacking.",
+    link: "https://jamhacks.ca/",
   },
   {
-    image: Jamhacks,
-    title: "Jamhacks",
-    description: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Tempor orci eu lobortis 
-    elementum nibh tellus molestie.`,
-    link: "www.google.com",
+    image: Visionary,
+    title: "Visionary Fellowship",
+    description:
+      "A program for student software engineers, PMs, and designers to get matched with a tech company, and complete a comprehensive software project, courtesy of the company.",
+    link: "https://www.visionary.app/",
   },
   {
-    image: Jamhacks,
-    title: "Jamhacks",
-    description: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Tempor orci eu lobortis 
-    elementum nibh tellus molestie.`,
-    link: "www.google.com",
+    image: CEMC,
+    title: "Competitive Programming",
+    description:
+      "A collection of CCC senior solutions involving various topics regarding data structures and algorithms, while preparing for the 2021 CCC Senior competitiion.",
+    link: "https://github.com/DanielYu2004/CCC-Senior-Solutions",
   },
 ];
 

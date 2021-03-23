@@ -8,8 +8,8 @@ function Work() {
     <div className="section work_section" data-aos="fade-down">
       <div className="large_subheading_text">Work</div>
       <span className="work_section__container">
-        {Data.map(() => (
-          <Card />
+        {Data.map((val) => (
+          <Card title={val.title} description={val.description} image={val.image} />
         ))}
       </span>
     </div>
