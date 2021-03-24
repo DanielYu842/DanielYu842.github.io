@@ -12,7 +12,7 @@ const data = [
     score: "45/75",
     year: "2021",
     description:
-      "Received a score of 45/60 on the senior competition, for solving problems 1, 2, and 3.",
+      "Received a score of 45/75 on the senior competition, for solving problems 1, 2, and 3.",
   },
   {
     award: "Honor Roll V",
@@ -56,7 +56,7 @@ const data = [
     score: "",
     year: "2020",
     description:
-      "Placed 1st overall in LA's TitanHacks, for a web application for tracking, interpreting, and coordinating the exchanges of ventilators, masks, and other medical supplies through decentralized technology",
+      "Placed 1st overall in LA's TitanHacks, for our web application for tracking, interpreting, and coordinating the exchanges of ventilators, masks, and other medical supplies through decentralized technology",
   },
   {
     award: "Most Innovative Hack against COVID-19",
@@ -68,7 +68,7 @@ const data = [
   },
   {
     award: "Qualifier",
-    name: "American Mathematics Invitational Examination (AIME)",
+    name: "American Invitational Mathematics Examination (AIME)",
     score: "",
     year: "2020",
     description:
@@ -80,7 +80,7 @@ const data = [
     score: "138/150",
     year: "2020",
     description:
-      "Received a score of 138/150 in the Cayley multiple choice contest, named published on CEMC website.",
+      "Received a score of 138/150 in the Cayley multiple choice contest, name published on CEMC website.",
   },
   {
     award: "Honor Roll III",
@@ -119,7 +119,7 @@ const data = [
     score: "",
     year: "2019",
     description:
-      "Won the Overall Security Hack at Hack the Hammer II in  Hamilton for our blockchain whistleblower complaint web application.",
+      "Won the Overall Security Hack at Hack the Hammer II in Hamilton for our blockchain whistleblower complaint web application.",
   },
   {
     award: "3rd Place Overall",
