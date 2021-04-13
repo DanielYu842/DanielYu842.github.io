@@ -1,11 +1,19 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import AOS from "aos";
 
-import { Hero, About, Skills, Work, Achievements, Footer } from "./Components";
+// import { Hero, About, Skills, Work, Achievements, Footer } from "./Components";
+import { Loading } from "./Components";
 
 import "./styles.less";
 import "./App.less";
 import "aos/dist/aos.css";
+
+const Hero = lazy(() => import("./Components/Hero/Hero"));
+const About = lazy(() => import("./Components/About/About"));
+const Skills = lazy(() => import("./Components/Skills/Skills"));
+const Work = lazy(() => import("./Components/Work/Work"));
+const Achievements = lazy(() => import("./Components/Achievements/Achievements"));
+const Footer = lazy(() => import("./Components/Footer/Footer"));
 
 AOS.init();
 
@@ -16,33 +24,14 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Hero />
-      <About />
-      <Skills />
-      <Work />
-      <Achievements />
-      <Footer />
-      {/* <div className="title_text">Hey, I&lsquo;m Daniel</div>
-      <Button type="primary" className="large_button">
-        Resume
-      </Button>
-      <Button type="primary" ghost className="large_button">
-        Contact
-      </Button>
-      <div className="large_secondary_text">
-        I’m a developer from Waterloo with a passion for software development and problem solving.
-        I’m currently a student at Sir John A. Macdonald S.S. pursuing a career in computer science.
-      </div>
-      <div className="large_subheading_text">About Me</div>
-      <div className="small_subheading_text">Visionary Fellowship</div>
-      <div className="small_secondary_subheading_text">HTML</div>
-      <div className="small_secondary_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Tempor orci eu lobortis elementum nibh tellus molestie.
-      </div>
-      <Button type="primary" className="small_button">
-        Learn More
-      </Button> */}
+      <Suspense fallback={<Loading />}>
+        <Hero />
+        <About />
+        <Skills />
+        <Work />
+        <Achievements />
+        <Footer />
+      </Suspense>
     </div>
   );
 }
