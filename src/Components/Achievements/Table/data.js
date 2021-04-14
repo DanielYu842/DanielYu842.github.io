@@ -1,10 +1,17 @@
 const data = [
   {
-    award: "TBD",
+    award: "Round 1 Qualifier",
+    name: "Google Code Jam",
+    score: "41/101",
+    year: "2021",
+    description: "Qualified for Google Code Jam Round 1 for scoring 41 on the Qualification Round",
+  },
+  {
+    award: "Honor Roll III",
     name: "Fermat",
     score: "142/150",
     year: "2021",
-    description: "Received a score of 142/150.",
+    description: "Received a score of 142/150, name published on CEMC website.",
   },
   {
     award: "Distinction",
