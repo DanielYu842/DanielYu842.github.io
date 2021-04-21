@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6c1e672.chunk.css",
-    "main.js": "/static/js/main.caa814d3.chunk.js",
-    "main.js.map": "/static/js/main.caa814d3.chunk.js.map",
+    "main.css": "/static/css/main.bdfc1a64.chunk.css",
+    "main.js": "/static/js/main.4dcb6beb.chunk.js",
+    "main.js.map": "/static/js/main.4dcb6beb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6b627ed.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6b627ed.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -10,15 +10,15 @@
     "static/js/2.4300985a.chunk.js.map": "/static/js/2.4300985a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.b6c1e672.chunk.css.map": "/static/css/main.b6c1e672.chunk.css.map",
+    "static/css/main.bdfc1a64.chunk.css.map": "/static/css/main.bdfc1a64.chunk.css.map",
     "static/js/2.4300985a.chunk.js.LICENSE.txt": "/static/js/2.4300985a.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/static/media/VarelaRound-Regular.be6d579a.eot",
     "static/media/Antd.f9f9be38.webp": "/static/media/Antd.f9f9be38.webp",
     "static/media/Arrow.56fe2b80.svg": "/static/media/Arrow.56fe2b80.svg",
-    "static/media/CEMC.4a452794.png": "/static/media/CEMC.4a452794.png",
+    "static/media/CEMC.439b070a.webp": "/static/media/CEMC.439b070a.webp",
     "static/media/CPP.c8bfaec4.webp": "/static/media/CPP.c8bfaec4.webp",
     "static/media/CSS.5283d284.webp": "/static/media/CSS.5283d284.webp",
-    "static/media/Daniel.27840794.png": "/static/media/Daniel.27840794.png",
+    "static/media/Daniel.65ab636a.webp": "/static/media/Daniel.65ab636a.webp",
     "static/media/Eslint.f01fbc54.webp": "/static/media/Eslint.f01fbc54.webp",
     "static/media/Express.4c5923de.webp": "/static/media/Express.4c5923de.webp",
     "static/media/Figma.a0b2839a.webp": "/static/media/Figma.a0b2839a.webp",
@@ -27,7 +27,7 @@
     "static/media/Github.4591ee28.svg": "/static/media/Github.4591ee28.svg",
     "static/media/HTML.3db10b8a.webp": "/static/media/HTML.3db10b8a.webp",
     "static/media/JS.832916e4.webp": "/static/media/JS.832916e4.webp",
-    "static/media/Jamhacks.c8847a25.png": "/static/media/Jamhacks.c8847a25.png",
+    "static/media/Jamhacks.f91f74c1.webp": "/static/media/Jamhacks.f91f74c1.webp",
     "static/media/Jira.d1879663.webp": "/static/media/Jira.d1879663.webp",
     "static/media/Less.93079dae.webp": "/static/media/Less.93079dae.webp",
     "static/media/Linkedin.85b60792.svg": "/static/media/Linkedin.85b60792.svg",
@@ -41,15 +41,15 @@
     "static/media/React.05f04731.webp": "/static/media/React.05f04731.webp",
     "static/media/Redux.5c4c0e85.webp": "/static/media/Redux.5c4c0e85.webp",
     "static/media/Slack.14d85226.webp": "/static/media/Slack.14d85226.webp",
-    "static/media/Visionary.c7aa7000.png": "/static/media/Visionary.c7aa7000.png",
+    "static/media/Visionary.bb77f0dd.webp": "/static/media/Visionary.bb77f0dd.webp",
     "static/media/Webpack.43e2c426.webp": "/static/media/Webpack.43e2c426.webp",
-    "static/media/mettleAI.5e2e841c.png": "/static/media/mettleAI.5e2e841c.png"
+    "static/media/mettleAI.3b2f4209.webp": "/static/media/mettleAI.3b2f4209.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f6b627ed.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.4300985a.chunk.js",
-    "static/css/main.b6c1e672.chunk.css",
-    "static/js/main.caa814d3.chunk.js"
+    "static/css/main.bdfc1a64.chunk.css",
+    "static/js/main.4dcb6beb.chunk.js"
   ]
 }
