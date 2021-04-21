@@ -1,6 +1,6 @@
-import Jamhacks from "./Jamhacks.png";
-import mettleAI from "./mettleAI.png";
-import Visionary from "./Visionary.png";
-import CEMC from "./CEMC.png";
+import Jamhacks from "./Jamhacks.webp";
+import mettleAI from "./mettleAI.webp";
+import Visionary from "./Visionary.webp";
+import CEMC from "./CEMC.webp";
 
 export { Jamhacks, mettleAI, Visionary, CEMC };

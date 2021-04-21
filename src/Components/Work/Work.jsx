@@ -9,7 +9,13 @@ function Work() {
       <div className="large_subheading_text">Work</div>
       <span className="work_section__container">
         {Data.map((val) => (
-          <Card title={val.title} description={val.description} image={val.image} link={val.link} />
+          <Card
+            title={val.title}
+            description={val.description}
+            image={val.image}
+            link={val.link}
+            key={val.title}
+          />
         ))}
       </span>
     </div>

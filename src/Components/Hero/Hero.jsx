@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "antd";
-import Headshot from "../../Assets/Images/Daniel.png";
+import Headshot from "../../Assets/Images/Daniel.webp";
 import { Github, Linkedin } from "../../Assets/Images/Icons";
 
 import "./Hero.less";
