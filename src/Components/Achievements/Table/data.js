@@ -1,10 +1,18 @@
 const data = [
   {
+    award: "Participant",
+    name: "Lloyd Auckland Invitational Mathematics Workshop",
+    score: "",
+    year: "2021",
+    description:
+      "Selected to participate in the 56th annual Lloyd Auckland Invitational Mathematics Workshop organized by the CEMC due to performance on the Fermat Contest.",
+  },
+  {
     award: "Round 1 Qualifier",
     name: "Google Code Jam",
     score: "41/101",
     year: "2021",
-    description: "Qualified for Google Code Jam Round 1 for scoring 41 on the Qualification Round",
+    description: "Qualified for Google Code Jam Round 1 for scoring 41 on the Qualification Round.",
   },
   {
     award: "Honor Roll III",
