@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdfc1a64.chunk.css",
-    "main.js": "/static/js/main.4dcb6beb.chunk.js",
-    "main.js.map": "/static/js/main.4dcb6beb.chunk.js.map",
+    "main.css": "/static/css/main.b6c1e672.chunk.css",
+    "main.js": "/static/js/main.d96fd65e.chunk.js",
+    "main.js.map": "/static/js/main.d96fd65e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6b627ed.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6b627ed.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.4300985a.chunk.js.map": "/static/js/2.4300985a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.bdfc1a64.chunk.css.map": "/static/css/main.bdfc1a64.chunk.css.map",
+    "static/css/main.b6c1e672.chunk.css.map": "/static/css/main.b6c1e672.chunk.css.map",
     "static/js/2.4300985a.chunk.js.LICENSE.txt": "/static/js/2.4300985a.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/static/media/VarelaRound-Regular.be6d579a.eot",
     "static/media/Antd.f9f9be38.webp": "/static/media/Antd.f9f9be38.webp",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.f6b627ed.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.4300985a.chunk.js",
-    "static/css/main.bdfc1a64.chunk.css",
-    "static/js/main.4dcb6beb.chunk.js"
+    "static/css/main.b6c1e672.chunk.css",
+    "static/js/main.d96fd65e.chunk.js"
   ]
 }
