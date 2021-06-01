@@ -1,5 +1,19 @@
 const data = [
   {
+    award: "Distinction",
+    name: "Euclid",
+    score: "84/100",
+    year: "2021",
+    description: "Received a score of 84/100",
+  },
+  {
+    award: "Honor Roll V",
+    name: "Hypatia",
+    score: "34/40",
+    year: "2021",
+    description: "Received a score of 34/40, name published on CEMC website.",
+  },
+  {
     award: "Participant",
     name: "Lloyd Auckland Invitational Mathematics Workshop",
     score: "",
