@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6873eed5.chunk.css",
-    "main.js": "/static/js/main.5624fcae.chunk.js",
+    "main.css": "/static/css/main.45792b22.chunk.css",
+    "main.js": "/static/js/main.a6a3f0c7.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.f6b627ed.js",
     "static/css/2.0d9171ac.chunk.css": "/static/css/2.0d9171ac.chunk.css",
-    "static/js/2.4300985a.chunk.js": "/static/js/2.4300985a.chunk.js",
+    "static/js/2.860a4e55.chunk.js": "/static/js/2.860a4e55.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.4300985a.chunk.js.LICENSE.txt": "/static/js/2.4300985a.chunk.js.LICENSE.txt",
+    "static/js/2.860a4e55.chunk.js.LICENSE.txt": "/static/js/2.860a4e55.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/static/media/VarelaRound-Regular.be6d579a.eot",
     "static/media/Antd.f9f9be38.webp": "/static/media/Antd.f9f9be38.webp",
     "static/media/Arrow.56fe2b80.svg": "/static/media/Arrow.56fe2b80.svg",
+    "static/media/Bash.2d8fd7bf.webp": "/static/media/Bash.2d8fd7bf.webp",
     "static/media/CEMC.439b070a.webp": "/static/media/CEMC.439b070a.webp",
     "static/media/CPP.c8bfaec4.webp": "/static/media/CPP.c8bfaec4.webp",
     "static/media/CSS.5283d284.webp": "/static/media/CSS.5283d284.webp",
@@ -23,6 +24,7 @@
     "static/media/HTML.3db10b8a.webp": "/static/media/HTML.3db10b8a.webp",
     "static/media/JS.832916e4.webp": "/static/media/JS.832916e4.webp",
     "static/media/Jamhacks.f91f74c1.webp": "/static/media/Jamhacks.f91f74c1.webp",
+    "static/media/Jest.a12d36f4.webp": "/static/media/Jest.a12d36f4.webp",
     "static/media/Jira.d1879663.webp": "/static/media/Jira.d1879663.webp",
     "static/media/Less.93079dae.webp": "/static/media/Less.93079dae.webp",
     "static/media/Linkedin.85b60792.svg": "/static/media/Linkedin.85b60792.svg",
@@ -35,6 +37,7 @@
     "static/media/Python.e8fa3ce4.webp": "/static/media/Python.e8fa3ce4.webp",
     "static/media/React.05f04731.webp": "/static/media/React.05f04731.webp",
     "static/media/Redux.5c4c0e85.webp": "/static/media/Redux.5c4c0e85.webp",
+    "static/media/Sera4.8a12bab0.webp": "/static/media/Sera4.8a12bab0.webp",
     "static/media/Slack.14d85226.webp": "/static/media/Slack.14d85226.webp",
     "static/media/Visionary.bb77f0dd.webp": "/static/media/Visionary.bb77f0dd.webp",
     "static/media/Webpack.43e2c426.webp": "/static/media/Webpack.43e2c426.webp",
@@ -43,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.f6b627ed.js",
     "static/css/2.0d9171ac.chunk.css",
-    "static/js/2.4300985a.chunk.js",
-    "static/css/main.6873eed5.chunk.css",
-    "static/js/main.5624fcae.chunk.js"
+    "static/js/2.860a4e55.chunk.js",
+    "static/css/main.45792b22.chunk.css",
+    "static/js/main.a6a3f0c7.chunk.js"
   ]
 }
