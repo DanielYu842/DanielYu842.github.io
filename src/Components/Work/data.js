@@ -1,6 +1,13 @@
 import { Jamhacks, mettleAI, Visionary, CEMC } from "../../Assets/Images/Work";
 
 const work = [
+  // {
+  //   image: Sera4,
+  //   title: "mettleAI",
+  //   description:
+  //     "Predicting substance abuse and overall mental health regressive behaviour before it happens using a predictive model created with ML/AI.",
+  //   link: "https://mettleai.com/",
+  // },
   {
     image: mettleAI,
     title: "mettleAI",

@@ -1,5 +1,6 @@
 import {
   Antd,
+  Bash,
   CPP,
   CSS,
   Express,
@@ -8,6 +9,7 @@ import {
   Firebase,
   Git,
   HTML,
+  Jest,
   Jira,
   JS,
   Less,
@@ -20,7 +22,6 @@ import {
   Python,
   ReactLogo,
   ReduxLogo,
-  Slack,
   Webpack,
 } from "../../Assets/Logos/index";
 
@@ -41,12 +42,13 @@ const frontend = {
     ],
     [
       { name: "Webpack", Img: Webpack, colour: "#abdaff" },
-      { name: "Less", Img: Less, colour: "#b2caed" },
+      { name: "Jest", Img: Jest, colour: "#ffbfd5" },
     ],
     [
       { name: "Component Libraries", Img: Antd, colour: "#87dfff" },
-      { name: "Figma", Img: Figma, colour: "#ffbab3" },
+      { name: "Less", Img: Less, colour: "#b2caed" },
     ],
+    [{ name: "Figma", Img: Figma, colour: "#ffbab3" }],
   ],
 };
 
@@ -73,7 +75,7 @@ const other = {
   name: "Other",
   mainItems: [
     { name: "Git", Img: Git, colour: "#ffcec4" },
-    { name: "Slack", Img: Slack, colour: "#ebebeb" },
+    { name: "Bash", Img: Bash, colour: "#8a939c" },
   ],
   secondaryItems: [
     [

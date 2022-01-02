@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 
 const Hero = lazy(() => import("./Components/Hero/Hero"));
 const About = lazy(() => import("./Components/About/About"));
+const Currently = lazy(() => import("./Components/Currently/Currently"));
 const Skills = lazy(() => import("./Components/Skills/Skills"));
 const Work = lazy(() => import("./Components/Work/Work"));
 const Achievements = lazy(() => import("./Components/Achievements/Achievements"));
@@ -27,6 +28,7 @@ function App() {
       <Suspense fallback={<Loading />}>
         <Hero />
         <About />
+        <Currently />
         <Skills />
         <Work />
         <Achievements />

@@ -1,4 +1,5 @@
 import Antd from "./Antd.webp";
+import Bash from "./Bash.webp";
 import CPP from "./CPP.webp";
 import CSS from "./CSS.webp";
 import Express from "./Express.webp";
@@ -21,9 +22,11 @@ import Slack from "./Slack.webp";
 import Webpack from "./Webpack.webp";
 import EslintLogo from "./Eslint.webp";
 import Jira from "./Jira.webp";
+import Jest from "./Jest.webp";
 
 export {
   Antd,
+  Bash,
   CPP,
   CSS,
   Express,
@@ -32,6 +35,7 @@ export {
   Firebase,
   Git,
   HTML,
+  Jest,
   Jira,
   JS,
   Less,

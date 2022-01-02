@@ -11,13 +11,13 @@ function Hero() {
       <span className="hero_section__content">
         <div className="title_text hero_section__title">Hey, I&lsquo;m Daniel</div>
         <div className="large_secondary_text hero_section__subheading">
-          I’m a developer from Waterloo with a passion for software development and problem solving.
-          I’m currently a student at Sir John A. Macdonald S.S. pursuing a career in computer
-          science.
+          I&apos;m a developer from Waterloo with a passion for software development and problem
+          solving. I&apos;m currently a student at Sir John A. Macdonald S.S. pursuing a career in
+          tech.
         </div>
         <span className="hero_section__actions">
           <a
-            href="https://drive.google.com/file/d/1UBV3g8NZiEpD1WTbhbALeLt0BWMwiNdF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kpiwj8JdS1pyam0dD7Q3ffY0Ngoz3_sw/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
